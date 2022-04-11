@@ -1,0 +1,27 @@
+[4FPEA]
+Average bond length =  3.1779 Å
+Polyhedral volume = 42.7222 Å^3
+Distortion index (bond length) = 0.00875
+Quadratic elongation =  1.0012
+Bond angle variance =   3.5865 deg.^2
+Effective coordination number =  5.9822
+
+
+[4ClPEA]
+Average bond length =  3.1762 Å
+Polyhedral volume = 42.6673 Å^3
+Distortion index (bond length) = 0.00675
+Quadratic elongation =  1.0009
+Bond angle variance =   2.9817 deg.^2
+Effective coordination number =  5.9896
+
+
+[4BrPEA]
+Average bond length =  3.1754 Å
+Polyhedral volume = 42.6322 Å^3
+Distortion index (bond length) = 0.00845
+Quadratic elongation =  1.0010
+Bond angle variance =   2.9227 deg.^2
+Effective coordination number =  5.9835
+
+

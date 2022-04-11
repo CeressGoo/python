@@ -1,0 +1,25 @@
+/-- block1: parameters
+a: 9.15610
+b: 8.68940
+c: 28.77620
+alpha: 90
+beta: 90
+gamma: 90
+n_basket: 2
+
+
+/-- block2: pbi basket 1
+zpb: 28.77620
+zi: 25.61398
+
+/-- block3: pbi basket 2
+zpb: 14.38810
+zi: 17.55032
+
+/-- block4: pbi basket 3
+zpb: 14.38810
+zi: 11.22588
+
+/-- block5: pbi basket 4
+zpb: 0
+zi: 3.16222

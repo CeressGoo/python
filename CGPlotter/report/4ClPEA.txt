@@ -1,0 +1,2 @@
+Peak wavelength: 525.653 nm
+Max intensity: 12652

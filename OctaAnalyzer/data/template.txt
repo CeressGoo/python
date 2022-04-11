@@ -1,0 +1,25 @@
+/-- block1: parameters
+a: 
+b: 
+c: 
+alpha: 
+beta: 
+gamma: 
+n_basket: 
+
+
+/-- block2: pbi basket 1
+zpb: 
+zi: 
+
+/-- block3: pbi basket 2
+zpb: 
+zi: 
+
+/-- block4: pbi basket 3
+zpb: 
+zi: 
+
+/-- block5: pbi basket 4
+zpb: 
+zi: 
