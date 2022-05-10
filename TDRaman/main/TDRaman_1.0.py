@@ -53,10 +53,11 @@ cmap = plt.get_cmap('jet')
 
 for sample_name in sample_lib:
     temp_list = get_tempkelvin_list(f'{datadir}{sample_name}/')[0]
+    # temp_list.pop()
     # kelvin_list = get_tempkelvin_list(f'{datadir}{sample_name}/')[1]
     colorlib = [cmap(i) for i in np.linspace(0,1,len(temp_list))]
 
-    fig = plt.figure(figsize=(5,10), dpi=300)
+    fig = plt.figure(figsize=(5,7), dpi=300)
 
     y_offset = 0
     for idx in range(len(temp_list)):
@@ -66,7 +67,7 @@ for sample_name in sample_lib:
         workdir = f'{datadir}{sample_name}/{temp}.csv'
         df_raw = get_csv_raw(workdir)
         df_norm = norm_maxdivide(df_raw)
-        df = focus_on_range(df_norm, 400)
+        df = focus_on_range(df_norm, 150)
 
         x = df.wn.values
         y = df.inten.values + 1.0 * y_offset
