@@ -1,0 +1,10 @@
+Datadir: ../data/TempSpecified/C5_333K.txt
+Vbasket: 124.81836776897204
+inplane angle: 160.83
+outplane angle: 9.59
+sigma1: 6.166763636363658
+sigma2: 0.0
+Lambda: [2.6000000000000486e-05]
+average bondlength: [3.1929999999999996]
+offset a, b, c: [[-0.31748, 0.18732499999999996, 0.12425999999999998]]
+offset length: [0.38900482468087716]

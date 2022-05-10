@@ -1,0 +1,6 @@
+testchar: /* part1 /*
+testval: /* 1 /*
+multival: /* 1 @ 2 @ 3 /*
+multival2: /*4@5/*
+multival3: /*61@7@8/*
+endline

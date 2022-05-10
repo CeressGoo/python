@@ -1,0 +1,11 @@
+Datadir: ../data/TempSpecified/R-MBA_173K.txt
+Vbasket: 130.08986221125045
+inplane angle: 150.78
+verticle outplane angle: 7.8175
+horizontal outplane angle: 1.6725
+sigma1: 18.28891818181818
+sigma2: 89.67345000000005
+Lambda: [0.00505963222222222]
+average bondlength: [3.2580666666666667]
+offset a, b, c: [[-0.4267066666666666, 0.8944000000000001, -0.1252066666666667]]
+offset length: [0.9988526661903424]

@@ -1,0 +1,10 @@
+Datadir: ../data/TempSpecified/PMA_180K.txt
+Vbasket: 125.52099915255455
+inplane angle: 159.113
+outplane angle: 10.038
+sigma1: 11.878430909090877
+sigma2: 0.0
+Lambda: [7.654222222222212e-05]
+average bondlength: [3.2061333333333333]
+offset a, b, c: [[0.03322, 0.10177333333333333, 0.058058888888888896]]
+offset length: [0.12178757882801564]

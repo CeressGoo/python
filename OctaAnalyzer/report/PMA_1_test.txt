@@ -1,0 +1,15 @@
+
+Sbas = 39.33170759000001, zdiff = 3.164649999999998, stheta = 1.0
+Vbas = 124.47109 
+
+Sbas = 39.33170759000001, zdiff = 3.16465, stheta = 1.0
+Vbas = 124.47109 
+
+Sbas = 39.33170759000001, zdiff = 3.1646500000000017, stheta = 1.0
+Vbas = 124.47109 
+
+Sbas = 39.33170759000001, zdiff = 3.16465, stheta = 1.0
+Vbas = 124.47109 
+
+
+Average Volume of PbI basket: 124.47109

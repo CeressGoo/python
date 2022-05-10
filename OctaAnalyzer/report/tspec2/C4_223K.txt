@@ -1,0 +1,11 @@
+Datadir: ../data/TempSpecified/C4_223K.txt
+Vbasket: 117.00847700563028
+inplane angle: 157.92
+verticle outplane angle: 17.56
+horizontal outplane angle: 22.13
+sigma1: 6.239127272727277
+sigma2: 0.0
+Lambda: [0.00014688888888888822]
+average bondlength: [3.1863333333333332]
+offset a, b, c: [[-0.31010333333333334, 0.1906466666666667, 0.12394111111111106]]
+offset length: [0.38454080131893986]

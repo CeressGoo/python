@@ -1,0 +1,11 @@
+Datadir: ../data/TempSpecified/rac-MBA_293K.txt
+Vbasket: 131.18980090525542
+inplane angle: 155.394
+verticle outplane angle: 5.98
+horizontal outplane angle: 0.34
+sigma1: 14.585412727272733
+sigma2: 0.0
+Lambda: [0.002953286666666667]
+average bondlength: [3.2577]
+offset a, b, c: [[0.036656666666666664, 0.10114333333333332, 0.09438888888888888]]
+offset length: [0.1431186481020831]

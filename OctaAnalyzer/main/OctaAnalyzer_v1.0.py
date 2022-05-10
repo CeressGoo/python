@@ -83,8 +83,8 @@ def parameter_definition(bl):
 
 '''==========[main]========================================================================='''
 
-sample_name = 'PEA_1'
-datadir = f'../data/PEAseries/{sample_name}.txt'
+sample_name = '4ClPMA_1'
+datadir = f'../data/PMAseries/{sample_name}.txt'
 bl_list = read_data(datadir)
 
 a, b, c, alfa, beta, gama, n_basket = parameter_definition(bl_list[0])
@@ -95,7 +95,7 @@ with open(f'../report/{sample_name}.txt', 'w', encoding='utf-8') as rep:
     print(f'======{sample_name}======')
     for block in bl_list[1:]:
         zdiff = calc_zavg(block)[0]
-        S_basket = (a * b * math.sin(gama)) / n_basket
+        S_basket = (a * b * math.sin(gama * math.pi / 180)) / n_basket
         stheta = angle_c_to_ab(alfa, beta, gama)[1]
         V_basket = S_basket * zdiff * stheta
 
@@ -112,7 +112,7 @@ with open(f'../report/{sample_name}.txt', 'w', encoding='utf-8') as rep:
 
 #%% main 2: verticle axis = a, relative coord input files
 
-sample_name = '4BrPEA_1'
+sample_name = '4FPEA_1'
 datadir = f'../data/PEAseries/{sample_name}.txt'
 bl_list = read_data(datadir)
 
@@ -124,7 +124,7 @@ with open(f'../report/{sample_name}.txt', 'w', encoding='utf-8') as rep:
     print(f'======{sample_name}======')
     for block in bl_list[1:]:
         zdiff = calc_havg(block, a)[0]
-        S_basket = (c * b * math.sin(alfa)) / n_basket
+        S_basket = (c * b * math.sin(alfa * math.pi / 180)) / n_basket
         stheta = angle_c_to_ab(gama, beta, alfa)[1]
         V_basket = S_basket * zdiff * stheta
 
@@ -149,13 +149,14 @@ a, b, c, alfa, beta, gama, n_basket = parameter_definition(bl_list[0])
 
 V_bas_list = []
 
-with open(f'../report/{sample_name}.txt', 'w', encoding='utf-8') as rep:
+with open(f'../report/{sample_name}_test.txt', 'w', encoding='utf-8') as rep:
     print(f'======{sample_name}======')
     for block in bl_list[1:]:
         zdiff = calc_havg(block, c)[0]
-        S_basket = (a * b * math.sin(gama)) / n_basket
+        S_basket = (a * b * math.sin(gama * math.pi / 180)) / n_basket
         stheta = angle_c_to_ab(alfa, beta, gama)[1]
         V_basket = S_basket * zdiff * stheta
+        print(f'sbas: {S_basket}, zdiff: {zdiff}, stheta:{stheta}')
 
         V_bas_list.append(V_basket)
 
@@ -178,3 +179,5 @@ with open(f'../report/{sample_name}.txt', 'w', encoding='utf-8') as rep:
 
 
 
+
+# %%
